@@ -7,13 +7,13 @@ FOSS 2021-2 Final Project - 201820768 우나영
 ## 목차
 
 - [주제 선정 동기](#주제-선정-동기)
-- [Redis 란?](#Redis-란)
+- [Redis 란](#Redis-란)
     + [정의](#정의)
     + [이점](#이점)
     + [주요 사용 사례](#주요-사용-사례)
 - [Redis 설치](#redis-설치)
-    + [방법 1) Docker를 통해 Redis 설치하기](#방법-1.-docker를-통해-redis-설치하기)
-    + [방법 2) Redis 릴리즈를 다운로드하여 설치하기](#방법-2.-redis-릴리즈를-다운로드하여-설치하기)
+    + [방법 1. Docker를 통해 Redis 설치하기](#방법-1.-docker를-통해-redis-설치하기)
+    + [방법 2. Redis 릴리즈를 다운로드하여 설치하기](#방법-2.-redis-릴리즈를-다운로드하여-설치하기)
 - [Redis-cli 명령어](#redis-cli-명령어)
 - [Redis와 Spring Boot 연동](#redis와-spring-boot-연동)
     + [POST /redis](#post--redis)
@@ -27,7 +27,7 @@ FOSS 2021-2 Final Project - 201820768 우나영
 - 개발 프로젝트를 진행하며 Redis 데이터 저장소에 대해 알게 되었고 Redis에 관한 지식을 쌓고 싶다는 목표가 생겼다. 따라서 Redis란 무엇인지에 대해 알아본 뒤 설치 및 실습을 진행해보고자 해당 주제를 선정하게 되었다.  
 - Redis 데이터 저장소에 대해 관심이 생긴 사람들이 해당 강의를 통해 내가 알고 있는 Redis에 관한 지식을 공유받으면 좋을 것 같다. 나 또한 아직 모르는 부분은 다른 사람의 자료를 통해 공유받음으로써 선순환이 이루어지면 좋을 것 같다.
 
-## Redis 란?
+## Redis 란
 
 #### 정의
 Redis란 Key-Value 구조의 비정형 데이터를 저장하고 관리하기 위한 오픈 소스 기반의 비관계형 데이터베이스 관리 시스템이다.
@@ -62,7 +62,7 @@ Redis는 머신 러닝 모델을 신속하게 구축하고 학습 및 배포할 
 
 ## Redis 설치
 
-#### 방법 1) Docker를 통해 Redis 설치하기
+#### 방법 1. Docker를 통해 Redis 설치하기
 
 1. mkdir redis
 
@@ -83,7 +83,7 @@ services:
 4. docker-compose up
 
 
-#### 방법 2) Redis 릴리즈를 다운로드하여 설치하기
+#### 방법 2. Redis 릴리즈를 다운로드하여 설치하기
 
 <https://github.com/microsoftarchive/redis/releases>
 
