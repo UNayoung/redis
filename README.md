@@ -142,16 +142,16 @@ flushall
 - Redis 저장소에 대한 CRUD REST API 구현
 
 #### POST /redis
-![post](/uploads/e2f6683efff3e6887ee3ffa28d67aad9/post.JPG)
+![post](https://user-images.githubusercontent.com/55876368/147932515-e54e8100-6aa3-4597-9fe7-d4b822c224df.JPG)
 
 #### GET /redis
-![get](/uploads/da14df263bb053a454d7de1affb42a7f/get.JPG)
+![get](https://user-images.githubusercontent.com/55876368/147932571-ff5a553c-27ff-48eb-b395-319b7b223854.JPG)
 
 #### PUT /redis
-![put](/uploads/078a741bf812e72487e684876ca719f8/put.JPG)
+![put](https://user-images.githubusercontent.com/55876368/147932597-3a323828-bf3f-4542-95c6-d728a79c93de.JPG)
 
 #### DELETE /redis
-![delete](/uploads/3b785d99a46ddc80caf89605847d104a/delete.JPG)
+![delete](https://user-images.githubusercontent.com/55876368/147932624-06846aa2-211d-4ce3-9a6f-afc146f114bc.JPG)
 
 ## References
 
