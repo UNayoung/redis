@@ -1,12 +1,8 @@
-FOSS 2021-2 Final Project - 201820768 우나영
-=============
-
-# Lecture - Redis
+# Redis
 <img src="https://media.vlpt.us/images/limsubin/post/ac3da3f4-ead2-4790-8cd3-eda18726ac6f/redis.png" width="240" height="80">
 
 ## 목차
 
-- [주제 선정 동기](#주제-선정-동기)
 - [Redis 란](#redis-란)
     + [정의](#정의)
     + [이점](#이점)
@@ -20,12 +16,7 @@ FOSS 2021-2 Final Project - 201820768 우나영
     + [GET /redis](#get--redis)
     + [PUT /redis](#put--redis)
     + [DELETE /redis](#delete--redis)
-- [강의를 진행하며 느낀점](#강의를-진행하며-느낀점)
 - [References](#references)
-
-## 주제 선정 동기
-- 개발 프로젝트를 진행하며 Redis 데이터 저장소에 대해 알게 되었고 Redis에 관한 지식을 쌓고 싶다는 목표가 생겼다. 따라서 Redis란 무엇인지에 대해 알아본 뒤 설치 및 실습을 진행해보고자 해당 주제를 선정하게 되었다.  
-- Redis 데이터 저장소에 대해 관심이 생긴 사람들이 해당 강의를 통해 내가 알고 있는 Redis에 관한 지식을 공유받으면 좋을 것 같다. 나 또한 아직 모르는 부분은 다른 사람의 자료를 통해 공유받음으로써 선순환이 이루어지면 좋을 것 같다.
 
 ## Redis 란
 
@@ -161,10 +152,6 @@ flushall
 
 #### DELETE /redis
 ![delete](/uploads/3b785d99a46ddc80caf89605847d104a/delete.JPG)
-
-## 강의를 진행하며 느낀점
-- 강의를 진행하며 다시 한번 아는 것과 이를 설명하는 것은 다르다는 것을 느꼈다. 이미 알고 있던 내용도 직접 설명하려하니 내가 알고 있던 것이 틀린 것은 아닌지 계속해서 찾아보고 확인해보았던 것 같다. 그리고 직접 실습을 진행하면서 동시에 설명까지 같이 하려니 그 또한 쉽지 않음을 느꼈다.
-- 이후에 큰 규모로 Redis를 활용할 경우가 생긴다면 해당 프로젝트를 진행하며 알게 된 지식을 더욱 확장시켜볼 수 있을 것 같다.
 
 ## References
 
